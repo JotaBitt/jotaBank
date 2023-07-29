@@ -32,7 +32,7 @@ function validaPrimeiroDigito(cpf) {
     }
     soma = (soma*10) % 11;
 
-    if (soma == 10 || soma == 11) {
+    if (soma == 10 || soma == 1) {
         soma = 0;
     }
     return soma != cpf[9];
